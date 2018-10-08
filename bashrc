@@ -11,7 +11,7 @@ source ~/.bash_git
 
 # GIT PROMPT
 GIT_PS1_SHOWDIRTYSTATE=1
-PS1='\u@mbp \w$(__git_ps1)\$ '
+PS1='\u@\h \w$(__git_ps1)\$ '
 
 # BIG HISTORY
 HISTSIZE=100000
